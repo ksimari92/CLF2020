@@ -1,0 +1,19 @@
+.div-padre{
+    background-color: blueviolet;
+    color: white;
+    width: 75%;
+    margin: auto;
+    padding: 50px;
+    border: 10px solid blue;
+}
+
+.gato{
+    width: 100%;
+    border: 5px solid violet;
+}
+.div-hijo{
+    background: burlywood;
+    color: black;
+    width:55%;
+    margin: 25px auto;
+}
