@@ -1,0 +1,13 @@
+.btn{
+    background-color: green;
+    color: aliceblue;
+    border: solid 1px black;
+}
+
+.borrar{
+    display: none;
+}
+
+.ver{
+    display: block;
+}
