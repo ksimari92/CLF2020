@@ -1,0 +1,12 @@
+body{
+    background-color: lightgreen;
+}
+
+div { 
+    margin-top: 10px;
+}
+
+.estilo {
+    border: 2px solid black;
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+.contenedor{
+    background-color: blueviolet;
+    width: 500px;
+    height: 50em;
+    margin: 50px auto;
+   
+}
+
+.agregar {
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+}
+
+.botones{
+    width:50%;
+    margin:30px auto;
+}

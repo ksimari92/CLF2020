@@ -1,0 +1,59 @@
+body{
+    background-color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedor{
+    width: 95%;
+}
+
+nav {
+    margin: 5px auto;
+    padding: 10px;
+    background-color: black;
+}
+
+nav a  {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    padding: 20px;
+}
+
+
+.contenido .noticia {
+    width: 30%;
+    display: inline-block;
+}
+
+.contenido .titulo{
+    color: red;
+}
+
+.contenido .bold {
+    font-weight: bold;
+}
+
+.imagenes {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px auto;
+}
+
+.imagenes img{
+    width:40%;
+    margin:5px;
+}
+
+.img-centrada{
+    width: 500px;
+    margin: 25px auto;
+}
+
+.img-centrada img{
+    display: flex;
+    align-items: center;
+    width:300px;
+    margin: 40px auto;
+}
