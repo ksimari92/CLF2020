@@ -1,0 +1,25 @@
+Modelar sistema usando herencia y/o composición, manejo de errores
+Dado el siguiente Diagrama de una biblioteca, implementar las siguientes clases y métodos:
+
+Clase Biblioteca con todos sus métodos y atributos:
+
+- El método insertar debe crear un Elemento de Lectura (Libro o Revista) y agregarlo a la lista de elementos, retornará true en caso de haberlo guardado exitosamente y false en otro caso. 
+
+- El método buscar, recibira el numero de ISBN del elemento y deberá retornar el elemento de lectura correspondiente, en caso de no existir, manejar el error como crea adecuado.
+
+- El método modificarPaginas, recibe el ID del artículo y retorna true en caso de éxito y false en otro caso.
+
+- El método eliminar recibe un identificador de artículo y debe retornar true en caso de haberlo borrado exitosamente y false en caso contrario.
+
+- El método buscarPorAutor, recibirá un string con el nombre del autor y retorna un arreglo con todos los artículos de lectura que correspondan.
+
+Clase ArticuloLectura con todos sus atributos y solo el setter de cantidadPaginas. Asumir que el resto de los métodos ya se encuentran implementados.
+
+Clase Libro con su constructor y setCantidadPaginas, tener en cuenta que un libro no tiene un limite de paginas.
+
+Clase Revista con su atributo, constructor y setCantidadPaginas. Tener en cuenta que una revista puede tener un máximo de 50 páginas, en caso de ser mayor a ese número debe aparecer un error.
+
+Consideraciones:
+- Cada artículo es identificado con su ISBN, por lo que debe ser único.
+- En cada método, agregar un comentario resumiendo su comportamiento.
+
